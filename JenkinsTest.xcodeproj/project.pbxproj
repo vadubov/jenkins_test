@@ -208,7 +208,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vitaly Dubov (R5B8TK8AC8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vitaly Dubov (R5B8TK8AC8)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -221,8 +222,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "41BC9FEC-678C-4855-A460-3E2F8925BEEF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "41BC9FEC-678C-4855-A460-3E2F8925BEEF";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -236,14 +239,17 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vitaly Dubov (R5B8TK8AC8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vitaly Dubov (R5B8TK8AC8)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "41BC9FEC-678C-4855-A460-3E2F8925BEEF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "41BC9FEC-678C-4855-A460-3E2F8925BEEF";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -253,10 +259,15 @@
 		5ADDCCC8169D9FEC00030652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vitaly Dubov (R5B8TK8AC8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vitaly Dubov (R5B8TK8AC8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JenkinsTest/JenkinsTest-Prefix.pch";
 				INFOPLIST_FILE = "JenkinsTest/JenkinsTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41BC9FEC-678C-4855-A460-3E2F8925BEEF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "41BC9FEC-678C-4855-A460-3E2F8925BEEF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -264,13 +275,59 @@
 		5ADDCCC9169D9FEC00030652 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vitaly Dubov (R5B8TK8AC8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vitaly Dubov (R5B8TK8AC8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JenkinsTest/JenkinsTest-Prefix.pch";
 				INFOPLIST_FILE = "JenkinsTest/JenkinsTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41BC9FEC-678C-4855-A460-3E2F8925BEEF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "41BC9FEC-678C-4855-A460-3E2F8925BEEF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
+		};
+		5ADDCCCA169DA00C00030652 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vitaly Dubov (R5B8TK8AC8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vitaly Dubov (R5B8TK8AC8)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "41BC9FEC-678C-4855-A460-3E2F8925BEEF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "41BC9FEC-678C-4855-A460-3E2F8925BEEF";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		5ADDCCCB169DA00C00030652 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vitaly Dubov (R5B8TK8AC8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vitaly Dubov (R5B8TK8AC8)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JenkinsTest/JenkinsTest-Prefix.pch";
+				INFOPLIST_FILE = "JenkinsTest/JenkinsTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "41BC9FEC-678C-4855-A460-3E2F8925BEEF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "41BC9FEC-678C-4855-A460-3E2F8925BEEF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
 		};
 /* End XCBuildConfiguration section */
 
@@ -280,6 +337,7 @@
 			buildConfigurations = (
 				5ADDCCC5169D9FEC00030652 /* Debug */,
 				5ADDCCC6169D9FEC00030652 /* Release */,
+				5ADDCCCA169DA00C00030652 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -289,6 +347,7 @@
 			buildConfigurations = (
 				5ADDCCC8169D9FEC00030652 /* Debug */,
 				5ADDCCC9169D9FEC00030652 /* Release */,
+				5ADDCCCB169DA00C00030652 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
